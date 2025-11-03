@@ -39,7 +39,29 @@ The application is hosted on **Amazon EC2** and integrates with **AWS S3** and *
 
 * **IAM Role-Based Access Control:** EC2 interacts with S3 using IAM roles, removing the need for credentials in the code.
 * **Network Security:** Communication between EC2, S3, and RDS is restricted to authorized network paths.
-* **Data Pro
+* **Data Protection:** Image data in S3 is private, and metadata in RDS is encrypted at rest.
+* **Local Mock Testing:** Testing with a fake S3 service minimizes cloud exposure during development.
+* **Container Isolation:** Each app instance runs securely inside a Docker container.
+
+---
+
+## 🧩 Future Enhancements
+
+* Integrate **CI/CD pipeline** using GitHub Actions or AWS CodePipeline.
+* Add **CloudWatch monitoring** for better visibility into API performance and errors.
+* Implement **AWS KMS** for advanced encryption key management.
+
+---
+
+## 📎 Author
+
+**Nikhil Agrawal**
+Software & Cloud Engineer | Cybersecurity Enthusiast
+
+---
+
+This project combines cloud architecture, automation, and cybersecurity principles to build a secure, scalable application on AWS.
+
 
 
 
